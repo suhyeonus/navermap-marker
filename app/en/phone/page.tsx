@@ -9,8 +9,8 @@ export default function PhoneHome() {
         <NaverMap 
             language="&language=en"
             companyName={process.env.NEXT_PUBLIC_LOCATION_NAME_ENG}
-            companyAddress={process.env.NEXT_PUBLIC_LOCATION_ADDRESS_ENG}
-            companyDetail={process.env.NEXT_PUBLIC_LOCATION_DETAIL_ENG}
+            companyAddress={process.env.NEXT_PUBLIC_LOCATION_DETAIL_ENG}
+            companyDetail={process.env.NEXT_PUBLIC_LOCATION_ADDRESS_ENG}
             />
     );
 }
